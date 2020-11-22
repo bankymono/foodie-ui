@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <div className="header">
-            <img className="logo" src={logo}/>
+            <img className="logo" src={logo} alt='logogit'/>
             <nav>
                 <GiHamburgerMenu className="hamburger"  color='black' onClick={handleClick}/>
                 <ul ref={navListRef}>
